@@ -1,0 +1,9 @@
+language: scala
+sudo: false
+env:
+  matrix:
+  - SBT_VERSION=0.13.11
+  - SBT_VERSION=0.13.13
+script:
+ - echo "sbt.version=${SBT_VERSION}" > project/build.properties
+ - sbt b/run
