@@ -1,5 +1,6 @@
 language: scala
 sudo: false
+jdk: oraclejdk8
 env:
   matrix:
   - SBT_VERSION=0.13.11
