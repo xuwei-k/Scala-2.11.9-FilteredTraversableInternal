@@ -1,5 +1,5 @@
 val a = project.settings(
-  scalaVersion := "2.11.9"
+  scalaVersion := "2.11.10"
 )
 
 val b = project.settings(
